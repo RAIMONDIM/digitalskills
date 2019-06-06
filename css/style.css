@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  padding:5px;
+}
+
+body {
+  font-family: 'Nanum+Gothic',arial, sans-serif;
+  font-weight: 300;
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  width: 100%;
+  margin:inherit;
+}
+
+header {
+  background: #1c4d4a;
+}
+header a {
+  color:white;
+}
+
+footer {
+  background: #4eb4d0;
+}
+
+section {
+  background:#fff;
+}
+
+a {
+  color: white;
+}
+
+
+.wrapper {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  color:black;
+}
+
+.imgs {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+h1, h2 {
+  color: black;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  text-align: right;
+  margin-right: 30px;
+}
+
+.flexslider .slides li img{
+  height: 50%;
+}
